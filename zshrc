@@ -16,6 +16,10 @@ unset __conda_setup
 # alias
 alias ls='ls -laFh'
 
+# add locations to $PATH variable
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 # prompts
 # custome prompts remove the python environment information
 # ie (base)
