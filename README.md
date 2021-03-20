@@ -9,3 +9,4 @@
 - Trackpad (Three Cinger Drag and Tap to Click)
 - .zshrc
 - Git (config and SSH)
+- Homebrew install
