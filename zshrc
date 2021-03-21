@@ -13,6 +13,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # alias
 alias ls='ls -laFh'
 
@@ -21,11 +24,10 @@ alias ls='ls -laFh'
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # prompts
-# custome prompts remove the python environment information
+# custom prompts remove the python environment information
 # ie (base)
 
 # functions
 function mkcd() {
  mkdir -p "$@" && cd "$_";
 }
-
