@@ -1,0 +1,14 @@
+[core]
+	excludesfile = /Users/lescardone/.gitignore_global
+	editor = emacs -nw
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Leslie
+	email = 75267383+lescardone@users.noreply.github.com
+[commit]
+	template = /Users/lescardone/.stCommitMsg
